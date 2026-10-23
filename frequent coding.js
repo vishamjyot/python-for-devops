@@ -1387,4 +1387,18 @@ I would mock the Slack HTTP request using unittest.mock or use a test function t
 Interview tip: A module is generally one building block; a library is a broader collection of building blocks used to perform tasks.
 
 
-    
+
+What are Python libraries commonly used in DevOps/SRE?
+Library/tool	Typical use
+requests	HTTP requests and API checks
+boto3	AWS automation
+kubernetes	Kubernetes API automation
+subprocess	Running Linux commands
+pathlib	Working with file paths
+shutil	File copying and disk utilities
+re	Regular expressions and log parsing
+json	Reading and writing JSON data
+logging	Recording script activity and errors
+pytest	Automated testing
+psutil	CPU, memory, disk, and process information
+datetime	Dates, timestamps, and retention checks
