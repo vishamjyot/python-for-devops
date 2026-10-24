@@ -112,7 +112,7 @@ Algorithm
 
 text = "hello"
 
-frequency = {}
+frequency = dict()
 
 for char in text:
     if char in frequency:
