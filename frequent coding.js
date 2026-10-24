@@ -141,7 +141,7 @@ Algorithm
 
 numbers = [1, 2, 2, 3, 1, 4]
 
-unique_numbers = []
+unique_numbers = list()
 
 for num in numbers:
     if num not in unique_numbers:
